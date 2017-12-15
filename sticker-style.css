@@ -1,3 +1,7 @@
+* {
+	font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+
 .upload-row {
 	background-image: url("https://d21ii91i3y6o6h.cloudfront.net/products/217/original/custom-die-cut-stickers_1469713744.jpg?1469713744")
 }
@@ -19,6 +23,10 @@
 .content-block {
 	display: inline-block;
 	width: 30%;
+}
+
+h1, h2, h3{
+	font-family: 'Proxima Nova', Georgia, sans-serif;
 }
 
 .content-block img{
@@ -50,9 +58,53 @@ p {
 	margin: 50px;
 }
 
+.shopping-cart {
+	width: 20px;
+	margin-top: 14px;
+}
+
+#nav a#nav-logo-aaron {
+	position: relative;
+    padding: 0;
+    width: 140px;
+    height: 42px;
+    margin: 5px 15px;
+    background-size: 100% auto;
+    background-position: 0 45%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: -7000px;
+    background-image: url(./logo.svg);
+}
+
+a.main-nav-link {
+	margin-top: 5px;
+}
+
 @media (max-width: 1200px) {
 	.main.wrapper {
 		width: 75%;
+	}
+}
+
+@media (max-width: 800px) {
+	.section-row {
+		width: 100%;
+	}
+
+	.video-block {
+		display: block;
+		width: 100%;
+	}
+
+	#video-desc {
+		width: 85%;
+		margin: 10px auto;
+	}
+
+	#video-embeded {
+		width: 85%;
+		margin: 0 auto;
 	}
 }
 
@@ -69,7 +121,7 @@ p {
 	}
 
 	.content-blocks {
-		width: 100%;
+		width: 85%;
 		display: block;
 	}	
 
@@ -77,11 +129,13 @@ p {
 	.content-block {
 		display: block;
 		width: 100%;
+		margin: 25px auto;
 	}
 
 	.icon-desc {
 		display: inline-block;
-		width: 75%;
+		width: 80%;
 	}
+
 
 }
